@@ -15,5 +15,6 @@
     * [Selenium](doc/dev/Selenium.md)
 * [视频播放器](doc/video/readme.md)
 * [聊天软件](doc/chat/readme.md)
+* [图片](doc/pic/readme.md)
 * [Gnome Desktop](doc/gnome/readme.md)
 
