@@ -13,3 +13,13 @@ flatpak install flathub com.mattjakeman.ExtensionManager
 - Input Method Panel
 - User Theme
 
+```bash
+sudo apt install gnome-tweaks
+```
+
+
+
+```bash
+mkdir ~/.icons
+```
+

@@ -12,6 +12,12 @@ source ~/.zshrc
 
 
 
+```
+nvm install 8
+```
+
+
+
 ```bash
 nvm install --lts
 ```
@@ -26,3 +32,8 @@ npm config set registry -g http://registry.npmmirror.com
 ```bash
 npm config set registry https://registry.npmjs.org
 ```
+
+```
+npm install gitbook-cli -g
+```
+

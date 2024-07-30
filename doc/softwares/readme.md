@@ -75,7 +75,7 @@ sudo apt install -f
 
 ```bash
 # 1. 安装 Docker
-sudo apt install docker.io
+sudo apt install docker.io -y
 
 # 2. 将当前用户添加到 docker 用户分组。 解决 sudo 权限问题
 sudo usermod -aG docker $USER

@@ -24,17 +24,46 @@ export PYENV_ROOT="$HOME/.pyenv"
 eval "$(pyenv init -)"
 ```
 
+
+
+## 3.10.14
+
+```bash
+mkdir ~/.pyenv/cache -p
+```
+
+```bash
+cd ~/.pyenv/cache
+```
+
+```bash
+wget https://mirrors.huaweicloud.com/python/3.10.14/Python-3.10.14.tar.xz
+```
+
+
+
+```bash
+pyenv install 3.10.14
+```
+
+```bash
+pyenv global 3.10.14
+```
+
 pip 镜像
 
 清华大学镜像
 
-```
+```bash
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 pip config set install.trusted-host pypi.tuna.tsinghua.edu.cn
 ```
 
 
 
+```bash
+.config/pip/pip.conf
+```
 
 
 
