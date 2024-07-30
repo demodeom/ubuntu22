@@ -18,4 +18,5 @@
 * [图片](doc/pic/readme.md)
 * [远程软件](doc/remote/readme.md)
 * [Gnome Desktop](doc/gnome/readme.md)
+* [VPN](doc/vpn/readme.md)
 
