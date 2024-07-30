@@ -19,5 +19,10 @@ nvm install --lts
 
 
 ```bash
-npm config set registry http://registry.npmmirror.com
+npm config set registry -g http://registry.npmmirror.com
+```
+
+
+```bash
+npm config set registry https://registry.npmjs.org
 ```
