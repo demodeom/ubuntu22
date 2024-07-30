@@ -17,7 +17,15 @@ sudo dpkg -i ~/Downloads/codium_1.91.0.24190_amd64.deb
 
 ## ToolBox
 
+
 ToolBox [https://www.jetbrains.com/toolbox-app/](https://www.jetbrains.com/toolbox-app/)
+
+
+Ubuntu 24 中 ToolBox 需要依赖才能运行
+
+```bash
+sudo apt install  libfuse-dev -y
+```
 
 [https://3.jetbra.in](https://3.jetbra.in)
 

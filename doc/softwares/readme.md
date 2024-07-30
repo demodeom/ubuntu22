@@ -25,6 +25,34 @@ wget https://mirror.sjtu.edu.cn/flathub/flathub.gpg
 sudo flatpak remote-modify --gpg-import=flathub.gpg flathub 
 ```
 
+Ubuntu 24 出现以下警告信息
+
+```
+请注意 
+
+'/var/lib/flatpak/exports/share'
+'/home/demodeom/.local/share/flatpak/exports/share'
+
+目录不在由 XDG_DATA_DIRS 环境变量设置的搜索路径中，因此通过 Flatpak
+安装的应用在会话重启前可能不会出现在您的桌面。
+```
+
+解决方法， 使用以下命令， 编辑用户环境变量文件
+
+```bash
+vim ~/.zshrc
+```
+
+文件末尾追加以下内容, 保存、退出编辑文件
+
+```
+# flatapk
+export XDG_DATA_DIRS=$XDG_DATA_DIRS:/var/lib/flatpak/exports/share/:~/.local/share/flatpak/exports/share
+```
+
+重启生效
+
+
 
 
 ## AppImageLauncher
@@ -68,13 +96,15 @@ sudo systemctl restart docker
 
 WebAppManager [http://packages.linuxmint.com/pool/main/w/webapp-manager/](http://packages.linuxmint.com/pool/main/w/webapp-manager/)
 
+> 某些版本的软件安装包，可能会被删除，需要查看最新的软件版本号。
+
 ```bash
 mkdir ~/Downloads
 cd ~/Downloads
 
-wget http://packages.linuxmint.com/pool/main/w/webapp-manager/webapp-manager_1.3.6_all.deb
+wget http://packages.linuxmint.com/pool/main/w/webapp-manager/webapp-manager_1.3.7_all.deb
 
-sudo dpkg -i ~/Downloads/webapp-manager_1.3.6_all.deb
+sudo dpkg -i ~/Downloads/webapp-manager_1.3.7_all.deb
 
 sudo apt install -f -y
 ```

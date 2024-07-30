@@ -29,7 +29,7 @@ sudo apt upgrade -y
 
 
 ```bash
-sudo apt install wget curl zsh vim -y
+sudo apt install wget curl zsh vim git -y
 ```
 
 ## 终端美化

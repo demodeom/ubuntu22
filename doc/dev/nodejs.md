@@ -15,3 +15,9 @@ source ~/.zshrc
 ```bash
 nvm install --lts
 ```
+
+
+
+```bash
+npm config set registry http://registry.npmmirror.com
+```
