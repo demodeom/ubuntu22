@@ -25,3 +25,7 @@ sudo dpkg -i  libwebkit2gtk-4.0-37_2.43.3-1_amd64.deb
 sudo dpkg -i  clash-verge_1.7.5_amd64.deb
 ```
 
+
+
+
+

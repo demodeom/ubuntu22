@@ -8,7 +8,7 @@
 mkdir ~/Downloads
 cd ~/Downloads
 
-wget https://ghproxy.net/https://github.com/VSCodium/vscodium/releases/download/1.91.0.24190/codium_1.91.0.24190_amd64.deb
+wget https://mirror.ghproxy.com/https://github.com/VSCodium/vscodium/releases/download/1.91.0.24190/codium_1.91.0.24190_amd64.deb
 
 sudo dpkg -i ~/Downloads/codium_1.91.0.24190_amd64.deb
 ```
